@@ -8,10 +8,6 @@ import useFetchData from "../api/hooks/useFetchData";
 import { useEffect } from "react";
 
 export default function HomeScreen() {
-  useEffect(() => {
-    const { data } = useFetchData();
-    console.log(data);
-  });
 
   const { data } = useFetchData();
   console.log(data);
